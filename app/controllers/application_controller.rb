@@ -11,4 +11,3 @@ private
   def application_params
     params.require(:application).permit(:title, :content, :image)
   end
-end
